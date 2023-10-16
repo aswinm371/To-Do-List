@@ -30,7 +30,7 @@ function App() {
       <ul class="nobults">
         {list.map((todo)=>(
           <li key={todo.id}>{todo.todo}
-          <button class="btn2"  onClick={()=> deleteTodo(todo.id)}> &times; </button>
+          <button class="btn2"  onClick={()=> deleteTodo(todo.id)}> Delete </button>
           </li>
         ))}
       </ul>
